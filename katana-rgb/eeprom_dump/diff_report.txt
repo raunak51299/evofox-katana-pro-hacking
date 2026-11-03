@@ -1,0 +1,16 @@
+Katana Pro EEPROM vs backup/modes.bin
+=====================================
+
+EEPROM dump: 256 bytes, two reads matched (see serial_capture.txt).
+Mapping: EEPROM offset N corresponds to modes.bin offset N+8.
+
+Result: bytes 0x00-0x87 are IDENTICAL to the known-good backup.
+Only 0x88-0xFF differ: EEPROM reads 0xFF (never written / erased),
+while the 1032-byte HID buffer is zero-filled there. This is the
+unused tail of the 136-byte settings record, not corruption.
+
+The FF FF at EEPROM 0x18-0x19 is effect slot 0:
+  color=7, direction=1, brightness=15, speed=15 -- also in the backup.
+
+Conclusion: the external EEPROM does not need repair. The bad write
+never persisted to it. Do NOT write it; investigate the MCU instead.

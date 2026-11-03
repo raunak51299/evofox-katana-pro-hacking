@@ -1,0 +1,14 @@
+# third-party clone and tool binaries (re-downloadable)
+smk/
+sinowisp/
+
+# arduino/esp32 build output
+**/build/
+*.elf
+*.map
+*.merged.bin
+__pycache__/
+
+# duplicates of files under dumps/
+icp_dumper/*.bin
+icp_dumper/*.txt

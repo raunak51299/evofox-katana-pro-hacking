@@ -1,0 +1,295 @@
+{
+  "vid_pid": "vid_258a&pid_0016",
+  "timestamp": 1792382430.4099865,
+  "modes_read": true,
+  "modes_raw_head": "06 83 00 00 00 00 00 00 00 00 00 00 00 00 5A A5 00 05 00 00 00 0B 20 01",
+  "per_key_flag_byte20": 0,
+  "current_mode_byte21": 11,
+  "device_modes": [
+    {
+      "idx": 0,
+      "color_preset": 7,
+      "direction_left": 1,
+      "brightness": 15,
+      "speed": 15
+    },
+    {
+      "idx": 1,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 1,
+      "speed": 0
+    },
+    {
+      "idx": 2,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 2
+    },
+    {
+      "idx": 3,
+      "color_preset": 6,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 2
+    },
+    {
+      "idx": 4,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 2
+    },
+    {
+      "idx": 5,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 2
+    },
+    {
+      "idx": 6,
+      "color_preset": 0,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 2
+    },
+    {
+      "idx": 7,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 0
+    },
+    {
+      "idx": 8,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 1
+    },
+    {
+      "idx": 9,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 4,
+      "speed": 0
+    },
+    {
+      "idx": 10,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 4,
+      "speed": 1
+    },
+    {
+      "idx": 11,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 4,
+      "speed": 2
+    },
+    {
+      "idx": 12,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 2
+    },
+    {
+      "idx": 13,
+      "color_preset": 2,
+      "direction_left": 0,
+      "brightness": 4,
+      "speed": 2
+    },
+    {
+      "idx": 14,
+      "color_preset": 7,
+      "direction_left": 0,
+      "brightness": 3,
+      "speed": 2
+    }
+  ],
+  "colors_read": true,
+  "colors_raw_head": "06 88 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+  "mode0_presets": [
+    {
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    {
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    {
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    {
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    {
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    {
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    {
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    }
+  ],
+  "per_led_cm12": {
+    "read": true,
+    "head": "06 89 00 00 00 00 00 00 00 00 00 00",
+    "first_leds": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "nonzero_bytes_in_396": 25
+  },
+  "per_led_cm34": {
+    "read": true,
+    "head": "06 89 00 00 00 00 00 00 00 00 00 00",
+    "first_leds": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "nonzero_bytes_in_396": 22
+  },
+  "per_led_cm5": {
+    "read": true,
+    "head": "06 89 00 00 00 00 00 00 00 00 00 00",
+    "first_leds": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "nonzero_bytes_in_396": 8
+  }
+}

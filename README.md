@@ -37,7 +37,7 @@ RGB effect were not exhaustively tested.
 | ![MCU](images/01-mcu-byk816-closeup.jpeg) | ![JTAG header and U2](images/02-jtag-header-and-eeprom-u2.jpeg) |
 | BYK816 MCU (date code 2129) | JTAG/ICP header (GND, TDO, TMS, TDI, TCK, VDD) and EEPROM U2 (24C02N) |
 | ![USB pads](images/03-usb-cable-soldered-to-ucb2-pads.jpeg) | ![Glued EEPROM wires](images/04-jtag-header-and-glued-eeprom-wires.jpeg) |
-| USB cable soldered to the 5-pad UCB2 header | JTAG header, with glue and fine wires on the EEPROM (U2) |
+| USB cable soldered to the 5-pad UCB2 header | JTAG header |
 
 ![Full PCB underside](images/06-pcb-full-underside.jpeg)
 
